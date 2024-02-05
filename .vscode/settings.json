@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/boxModel.html"
+    "livePreview.defaultPreviewPath": "/vmin-vmax.html",
+    "liveServer.settings.port": 5501
 }

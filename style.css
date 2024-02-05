@@ -1,5 +1,5 @@
 :root {
-    font-size: 20px;
+    font-size: 10px;
 } 
 
 
@@ -21,33 +21,38 @@ body {
     display: flex;
 }
 
-.col .col-em{
+.col-em{
     text-align: justify;
 }
 
-/* em */
+.col-rem{
+    font-size: 2rem;
+    color: red;
+}
 
-/* .typography .col {
+
+
+.typography .col{
     flex: 1;
     margin: 0 0.5em;
     padding: 0 0.5em;
     text-align: justify;
-}
-
-.col-em{
-    font-size: 10px;
+    font-size: 20px;
 }
 
 
+
+
+/* em */
 
 .col-em h2 {
      font-size: 2em;
 }
 
 .col-em p {
-    font-size: 1.5em;
-} */
-
+    font-size: 2em;
+} 
+ 
 
 
 /* rem */
@@ -56,10 +61,11 @@ body {
 } */
 
 .col-rem h2 {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .col-rem p {
-    font-size: 2rem;
+    font-size: 50px;
+    text-align: center;
 } 
 
